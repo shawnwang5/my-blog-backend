@@ -1,0 +1,27 @@
+{
+    "extends": "eslint-config-egg",
+    "rules": {
+        "array-bracket-spacing": [
+            "error",
+            "always"
+        ],
+        "space-before-function-paren": [
+            "error",
+            "always"
+        ],
+        "strict": [
+            "error",
+            "never"
+        ],
+        "quotes": [
+            0,
+            "backtick"
+        ],
+        "no-extra-semi": "off",
+        "semi": "off",
+        "indent": [
+            "error",
+            4
+        ]
+    }
+}
